@@ -18,18 +18,19 @@ function Increase() {
     countStr.textContent = count
 }
 
-// function that takes the count string and adds it to the log text string
+// function that takes the count string, adds it to the log text string and resets counts to 0
 
 function Save() {
     let log = countStr.textContent
     logStr.textContent += log + " - "
+    count = 0
+    countStr.textContent = count
 }
 
 
 // function that resets the value of count and all of the strings to 0 / their default
 
 function Reset() {
-    count = 0
-    countStr.textContent = count
+    Save()
     logStr.textContent = ""
 }
