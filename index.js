@@ -1,8 +1,6 @@
 // create variables that reference the elements we want to interact with
 
 let countStr = document.getElementById("count")
-let increaseBtn = document.getElementById("Increase")
-let saveBtn = document.getElementById("Save")
 let logStr = document.getElementById("logText")
 
 // create a variable that holds a num value that corresponds to displayed count string
